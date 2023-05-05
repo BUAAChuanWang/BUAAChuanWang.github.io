@@ -1,7 +1,7 @@
 # Site settings
 title: Wang Chuan
 SEOTitle: 王川-BUAA
-header-img: img/home-jordan.jpg
+header-img: img/home-jordan-celebrates.jpg
 email: wangchuan@buaa.edu.cn
 description: "Wang Chuan, From Beihang University"
 keyword: "王川, 王川的博客, LLM, NLP, IT, 大模型, Chuan Blog, 博客, 个人网站, 互联网, Web"
@@ -75,8 +75,8 @@ ga_domain: buaachuanwang.github.io
 
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
-sidebar-about-description: "时间是金 <br> 王川 From 北京航空航天大学"
-sidebar-avatar: https://https://github.com/BUAAChuanWang/BUAAChuanWang.github.io/tree/master/img/sidebar-jordan.png # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "# 🐐Hi there <br> ### 王川  <br> From 北京航空航天大学"
+#sidebar-avatar: https://https://github.com/BUAAChuanWang/BUAAChuanWang.github.io/tree/master/img/sidebar-jordan.png # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Featured Tags
 featured-tags: true # whether or not using Feature-Tags
