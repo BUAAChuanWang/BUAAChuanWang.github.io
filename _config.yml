@@ -1,6 +1,6 @@
 # Site settings
 title: Wang Chuan
-SEOTitle: 王川-BUAA
+SEOTitle: 王川 Michael Wang
 header-img: img/home-jordan-celebrates.jpg
 email: wangchuan@buaa.edu.cn
 description: "Wang Chuan, From Beihang University"
@@ -37,7 +37,7 @@ exclude:
   ]
 anchorjs: true # if you want to customize anchor. check out line:181 of `post.html`
 # If you have timezone issue (e.g. #68) in China, uncomment to use this:
-#timezone: CN
+timezone: CN
 
 # Gems
 # from PR#40, to support local preview for Jekyll 3.0
@@ -75,7 +75,7 @@ ga_domain: buaachuanwang.github.io
 
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
-sidebar-about-description: "# 🐐Hi there <br> ### 王川  <br> From 北京航空航天大学"
+sidebar-about-description: "🚀 Hi there <br> 🐐 王川 <br> 🏫 北京航空航天大学 <br> 🧑🏻‍🎓 计算机科学与技术  <br> 💼 NLP LLM Engineer"
 #sidebar-avatar: https://https://github.com/BUAAChuanWang/BUAAChuanWang.github.io/tree/master/img/sidebar-jordan.png # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Featured Tags
