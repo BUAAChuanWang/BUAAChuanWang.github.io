@@ -8,6 +8,7 @@ header-img:   "img/bg-Jordan_Solo.jpg"
 catalog:      true
 tags:
     - 笔记
+sticky:       100
 ---
 
 [TOC]
