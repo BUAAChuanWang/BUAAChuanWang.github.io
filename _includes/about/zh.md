@@ -7,8 +7,8 @@ Hey，我是王川（a.k.a. Michael in BUAA），毕业于北京航空航天大�
 
 ##### 演讲与分享
 
-- [CSS Still Sucks 2015][2] · 2015
-- [JavaScript 模块化七日谈][1] · 2015
+- [LLM 大模型工作][2] · 2023
+- [LLM涌现能力《Are Emergent Abilities of Large Language Models a Mirage?》论文思考][1] · 2023
 
-[1]: //huangxuan.me/2015/07/09/js-module-7day/
-[2]: //huangxuan.me/2015/12/28/css-sucks-2015/
+[1]: //buaachuanwang.github.io/2023/05/06/llm-paper/
+[2]: //buaachuanwang.github.io/2023/05/06/llm-note/

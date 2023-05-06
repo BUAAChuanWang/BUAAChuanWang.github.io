@@ -7,8 +7,8 @@ During the 2021 autumn recruitment period, he was recruited as an NLP algorithm 
 
 ##### Appearence
 
-- [CSS Still Sucks 2015][2] · 2015
-- [JavaScript Modularization Journey][1] · 2015
+- [LLM 大模型工作][2] · 2023
+- [LLM涌现能力《Are Emergent Abilities of Large Language Models a Mirage?》论文思考][1] · 2023
 
-[1]: //huangxuan.me/2015/07/09/js-module-7day/
-[2]: //huangxuan.me/2015/12/28/css-sucks-2015/
+[1]: //buaachuanwang.github.io/2023/05/06/llm-paper/
+[2]: //buaachuanwang.github.io/2023/05/06/llm-note/
