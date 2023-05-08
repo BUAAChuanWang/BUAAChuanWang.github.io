@@ -86,7 +86,7 @@ _ps:  The pre-training data includes 1.2T Pile English corpus, 1.0T Chinese Wuda
 
     - Layer Normalization：实验发现Pre-LN(bloom/GPT3/Opt/PaLM)、Post-LN(原始的transformer的方式)在GLM的结构下都无法使训练稳定。庆幸的是，尝试了基于 DeepNorm(Deepnet)中提出的方法(结合了Pre-LN和Post-LN优势)，来初始化Post-LN的方式可以让训练过程稳定。
 
-![img.png](https://github.com/BUAAChuanWang/BUAAChuanWang.github.io/blob/master/img/in-post/post-llm-glm-paper/img2.png)                           
+    ![img.png]({{site.url}}/img/in-post/post-llm-glm-paper/img2.png)                           
 
 2. Positional Encoding and FFNs：出于同时考虑训练稳定性和下游任务性能的考虑开展实验。
 
@@ -157,18 +157,18 @@ ps: FP16 for forwards and backwards and FP32 for optimizer states and master wei
 
 1. LANGUAGE MODELING
 
-LAMBADA（FIG2）   Pile BPB(Table 3)
-
-![img.png](../img/in-post/post-llm-glm-paper/img7.png)
+    LAMBADA（FIG2）   Pile BPB(Table 3)
+    
+    ![img.png](../img/in-post/post-llm-glm-paper/img7.png)
 
 2. MASSIVE MULTITASK LANGUAGE UNDERSTANDING (MMLU)（FIG6）
 
-![img.png](../img/in-post/post-llm-glm-paper/img8.png)
+    ![img.png](../img/in-post/post-llm-glm-paper/img8.png)
 
 3. BIG-BENCH
 
-![img.png](../img/in-post/post-llm-glm-paper/img9.png)
+    ![img.png](../img/in-post/post-llm-glm-paper/img9.png)
 
 4. CLUE（FIG8）
 
-![img.png](../img/in-post/post-llm-glm-paper/img10.png)
+    ![img.png](../img/in-post/post-llm-glm-paper/img10.png)
