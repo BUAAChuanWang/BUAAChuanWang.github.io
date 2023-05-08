@@ -86,7 +86,8 @@ _ps:  The pre-training data includes 1.2T Pile English corpus, 1.0T Chinese Wuda
 
     - Layer Normalization：实验发现Pre-LN(bloom/GPT3/Opt/PaLM)、Post-LN(原始的transformer的方式)在GLM的结构下都无法使训练稳定。庆幸的是，尝试了基于 DeepNorm(Deepnet)中提出的方法(结合了Pre-LN和Post-LN优势)，来初始化Post-LN的方式可以让训练过程稳定。
 
-    ![img.png](../img/in-post/post-llm-glm_paper/img2.png)                           
+    <img src="../img/in-post/post-llm-glm_paper/img2.png"/>    
+![img.png](../img/in-post/post-llm-glm_paper/img2.png)                           
 
 2. Positional Encoding and FFNs：出于同时考虑训练稳定性和下游任务性能的考虑开展实验。
 
