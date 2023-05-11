@@ -1,6 +1,6 @@
 ---
 layout:       post
-title:        "【LLM】peft安装记录"
+title:        "【LLM】chatGLM-SFT记录"
 subtitle:     " \"时间是金\""
 date:         2023-05-11 13:18:00
 author:       "王川"
@@ -10,6 +10,7 @@ tags:
     - LLM
     - NLP
     - peft
+    - SFT
 ---
 
 # 安装记录
@@ -45,28 +46,28 @@ tags:
 
 # peft安装
 
-# 1.安装accelerate
-git clone xxx.accelerate.git
-
-cd accelerate
-
-vi setup.cfg
-
-[easy_install]
-index_url = https://pypi.tuna.tsinghua.edu.cn/simple
-
-python setup.py install
-
-# 2.安装peft
-git clone xxx.pft.git
-
-cd peft
-
-touch setup.cfg
-
-vi setup.cfg
-
-[easy_install]
-index_url = https://pypi.tuna.tsinghua.edu.cn/simple
-
-python setup.py install
+    # 1.安装accelerate
+    git clone xxx.accelerate.git
+    
+    cd accelerate
+    
+    vi setup.cfg
+    
+    [easy_install]
+    index_url = https://pypi.tuna.tsinghua.edu.cn/simple
+    
+    python setup.py install
+    
+    # 2.安装peft
+    git clone xxx.pft.git
+    
+    cd peft
+    
+    touch setup.cfg
+    
+    vi setup.cfg
+    
+    [easy_install]
+    index_url = https://pypi.tuna.tsinghua.edu.cn/simple
+    
+    python setup.py install
