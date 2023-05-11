@@ -1,3 +1,16 @@
+---
+layout:       post
+title:        "【LLM】peft安装记录"
+subtitle:     " \"时间是金\""
+date:         2023-05-11 13:18:00
+author:       "王川"
+header-img:   "img/bg-Jordan_Solo.jpg"
+catalog:      true
+tags:
+    - LLM
+    - NLP
+    - peft
+---
 
 # 安装记录
 

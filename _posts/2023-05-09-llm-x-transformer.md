@@ -2,7 +2,7 @@
 layout:       post
 title:        "【LLM】x-transformer 训练Speed UP！"
 subtitle:     " \"时间是金\""
-date:         2023-05-00 17:57:00
+date:         2023-05-09 17:57:00
 author:       "王川"
 header-img:   "img/bg-Jordan_Solo.jpg"
 catalog:      true
