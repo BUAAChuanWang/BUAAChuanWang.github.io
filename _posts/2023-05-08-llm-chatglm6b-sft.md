@@ -42,7 +42,8 @@ tags:
     -i https://pypi.tuna.tsinghua.edu.cn/simple
 
 # textgen安装
-
+    
+    
 
 # peft安装
 
