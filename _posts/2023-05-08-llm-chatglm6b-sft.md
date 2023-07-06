@@ -43,7 +43,28 @@ tags:
 
 # textgen安装
     
+    pip install torch # conda install pytorch
+    git clone https://github.com/shibing624/textgen.git
+    cd textgen
+    python setup.py install
     
+    # step1
+    conda create -n chuan python=3.10
+    or
+    conda create -p /home/hadoop-mtai/.conda/envs/chuan python=3.10
+    # step2
+    export http_proxy=http://10.22.139.49:6666
+    export https_proxy=http://10.22.139.49:6666
+    
+    pip install -i http://data-source-pip.sankuai.com/simple --trusted-host data-source-pip.sankuai.com torch==1.13.1+cu117 torchvision==0.14.1+cu117 torchaudio==0.13.1 --extra-index-url https://download.pytorch.org/whl/cu117
+    # step3 安装peft
+    pip install -i https://pypi.tuna.tsinghua.edu.cn/simple peft
+    # step4 安装textgen
+    pip install -i https://pypi.tuna.tsinghua.edu.cn/simple textgen
+    pip install sentencepiece
+
+
+
 
 # peft安装
 
