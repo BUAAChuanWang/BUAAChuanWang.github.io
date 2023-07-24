@@ -2,7 +2,7 @@
 layout:       post
 title:        "DeepSpeed ZeRo Stage的介绍"
 subtitle:     " \"时间是金\""
-date:         2023-06-27 15:08:00
+date:         2023-07-24 17:08:00
 author:       "王川"
 header-img:   "img/bg-Jordan_Solo.jpg"
 catalog:      true

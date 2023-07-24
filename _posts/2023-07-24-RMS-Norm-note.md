@@ -2,7 +2,7 @@
 layout:       post
 title:        "Activation SWIGLU的介绍"
 subtitle:     " \"时间是金\""
-date:         2023-07-24 16:08:00
+date:         2023-07-24 17:18:00
 author:       "王川"
 header-img:   "img/bg-Jordan_Solo.jpg"
 catalog:      true
