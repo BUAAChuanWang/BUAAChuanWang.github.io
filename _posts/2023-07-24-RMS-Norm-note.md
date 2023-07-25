@@ -1,6 +1,6 @@
 ---
 layout:       post
-title:        "Activation SWIGLU的介绍"
+title:        "RMS Norm"
 subtitle:     " \"时间是金\""
 date:         2023-07-24 17:18:00
 author:       "王川"
@@ -9,8 +9,8 @@ catalog:      true
 tags:
     - LLM
     - NLP
-    - swiglu
-    - activation
+    - RMS Norm
+    - LayerNorm
 ---
 
 # RMS Norm

@@ -12,6 +12,9 @@ tags:
     - swiglu
     - activation
 ---
+
+https://zhuanlan.zhihu.com/p/621058772
+
 # activation functions
 
 SWISH（或称为SWIGLU）是一种激活函数，而GLU（Gated Linear Unit）、ReLU（Rectified Linear Unit）、Sigmoid和Tanh也都是深度学习中常见的激活函数。它们在神经网络中用于引入非线性性，使得模型可以学习复杂的非线性关系。下面将详细介绍每个激活函数的特点和区别：
