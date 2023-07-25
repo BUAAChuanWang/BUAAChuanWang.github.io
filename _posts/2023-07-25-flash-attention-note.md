@@ -9,8 +9,8 @@ catalog:      true
 tags:
     - LLM
     - NLP
-    - flash-attn
-    - Attention
+    - Flash-Attention1
+    - Flash-Attention2
 ---
 
 https://zhuanlan.zhihu.com/p/626079753
