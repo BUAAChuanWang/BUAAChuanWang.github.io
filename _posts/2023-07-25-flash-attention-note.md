@@ -38,3 +38,29 @@ SRAM(static random-access memory)静态随机存取内存，GPU上的超高速�
 https://zhuanlan.zhihu.com/p/645627275
 
 FA2相比FA1的重要区别是，FA2中将Q的切分也放在了外循环，这样每次外循环都可以计算输出一个结果块 $O_i$ （即 $softmax(QK^TV)$ ），不需要像FA1一样Q在内循环 O_i不是一次性出来，而每次外循环都要重新导HBM里面去上次O_i-1 的结果来做rescaling
+
+# flash-attn 1/2 安装
+
+    export http_proxy=http://10.22.139.49:6666
+    export https_proxy=http://10.22.139.49:6666
+    -i https://pypi.tuna.tsinghua.edu.cn/simple
+    
+    pip install packaging
+    pip install ninja
+    ninja --version
+    echo $?  # should return exit code 0)
+    conda install pytorch torchvision torchaudio pytorch-cuda=11.7 -c pytorch -c nvidia  # 确保cuda>=11.4
+    pip install flash-attn --no-build-isolation
+    
+    # 此外还有两个提速，可以参考QWen7B 和 Flash-Attn github介绍
+    # flash-attn rotary
+    "Warning: import flash_attn rotary fail, please install FlashAttention rotary to get higher efficiency "
+    "https://github.com/Dao-AILab/flash-attention/tree/main/csrc/rotary"
+    # flash-attn layer_norm
+    "Warning: import flash_attn rms_norm fail, please install FlashAttention layer_norm to get higher efficiency "
+    "https://github.com/Dao-AILab/flash-attention/tree/main/csrc/layer_norm"
+    
+    cd flash-attention/csrc/rotary
+    python setup.py install
+    cd flash-attention/csrc/layer_norm
+    python setup.py install
